@@ -13,33 +13,15 @@
 		</div>
 	</div>
 	<div class="p3_main">
-		TWITTER
+		<a class="twitter-timeline" data-theme="dark"
+		   href="https://twitter.com/AIRJAM_official"
+		   data-chrome="noheader nofooter transparent" height="100%">Tweets by AIRJAM_official</a>
 	</div>
 	<div id="modal-airjam-content" class="modal-content">
 		<div class="modal-body">
-			<div class="modal-body-content">
-				<a href=""></a>
-				OFFICIAL HP
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 1
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 2
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 3
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				SNS 1
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				SNS 2
+			<div class="modal-body-content modal-style-3">
+				<a href="http://airjam.jp/"></a>
+				OFFICIAL
 			</div>
 		</div>
 	</div>
@@ -54,37 +36,33 @@
 		</div>
 	</div>
 	<div class="p3_main">
-		TWITTER
+		<a class="twitter-timeline" data-theme="dark"
+		   href="https://twitter.com/pizza_of_death"
+		   data-chrome="noheader nofooter transparent" height="100%">Tweets by pizza_of_death</a>
 	</div>
 	<div id="modal-pizza-content" class="modal-content">
 		<div class="modal-body">
-			<div class="modal-body-content">
-				<a href=""></a>
-				OFFICIAL HP
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 1
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 2
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 3
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				SNS 1
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				SNS 2
+			<div class="modal-body-content modal-style-3">
+				<a href="http://www.pizzaofdeath.com/"></a>
+				OFFICIAL
 			</div>
 		</div>
 	</div>
 </div>
 <div class="p3_split">
-	広告エリア
+	<div class="p3_tile1">
+		<a href="http://hi-standard.jp/index_pc.php"></a>
+			<p class="v-adjust-parent">OFFICAIL HP</p>
+	</div>
+	<div class="p3_tile1">
+		<a href="http://hi-standard-store.jp/"></a>
+		<p class="v-adjust-parent">WEB STORE</p>
+	</div>
+	<div class="p3_tile1">
+		<a href="https://ja-jp.facebook.com/histandardofficial/"></a>
+		<p class="v-adjust-parent">FACEBOOK</p>
+	</div>
+	<div class="p3_tile2">
+
+	</div>
 </div>

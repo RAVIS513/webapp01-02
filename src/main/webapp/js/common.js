@@ -111,31 +111,31 @@ Common.prototype = {
 
 	/** モーダルボディコンテンツ調整 **/
 	adjustModalBodyContent : function() {
-		var cid = this.getModalContent();
-		if (cid != "") {
-			var cw = $(cid).width();
-			if (cw < this.modalBodyMinWidth) {
-				$(this.modalBodyContent).each(function(index, obj) {
-					$(obj).css('width','100%');
-				});
-			} else if (cw < this.modalBodyMinWidth * 2) {
-				$(this.modalBodyContent).each(function(index, obj) {
-					$(obj).css('width','50%');
-				});
-			} else if (cw < this.modalBodyMinWidth * 3) {
-				$(this.modalBodyContent).each(function(index, obj) {
-					$(obj).css('width','33.333%');
-				});
-			} else if (cw < this.modalBodyMinWidth * 4) {
-				$(this.modalBodyContent).each(function(index, obj) {
-					$(obj).css('width','25%');
-				});
-			} else {
-				$(this.modalBodyContent).each(function(index, obj) {
-					$(obj).css('width','20%');
-				});
-			}
-		}
+//		var cid = this.getModalContent();
+//		if (cid != "") {
+//			var cw = $(cid).width();
+//			if (cw < this.modalBodyMinWidth) {
+//				$(this.modalBodyContent).each(function(index, obj) {
+//					$(obj).css('width','100%');
+//				});
+//			} else if (cw < this.modalBodyMinWidth * 2) {
+//				$(this.modalBodyContent).each(function(index, obj) {
+//					$(obj).css('width','50%');
+//				});
+//			} else if (cw < this.modalBodyMinWidth * 3) {
+//				$(this.modalBodyContent).each(function(index, obj) {
+//					$(obj).css('width','33.333%');
+//				});
+//			} else if (cw < this.modalBodyMinWidth * 4) {
+//				$(this.modalBodyContent).each(function(index, obj) {
+//					$(obj).css('width','25%');
+//				});
+//			} else {
+//				$(this.modalBodyContent).each(function(index, obj) {
+//					$(obj).css('width','20%');
+//				});
+//			}
+//		}
 	},
 
 	/** モーダルを閉じる **/

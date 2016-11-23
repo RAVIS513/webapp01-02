@@ -13,36 +13,25 @@
 		</div>
 	</div>
 	<div class="p2_main">
-		<a class="twitter-timeline"
+		<a class="twitter-timeline" data-theme="dark"
 		   href="https://twitter.com/AKIHIRONAMBA"
-		   data-widget-id="622727466814050305"
-		   data-chrome="noheader nofooter transparent">@AKIHIRONAMBAさんのツイート</a>
+		   data-chrome="noheader nofooter transparent" height="100%">Tweets by AKIHIRONAMBA</a>
 	</div>
 	<div id="modal-namba-content" class="modal-content">
 		<div class="modal-body">
-			<div class="modal-body-content">
-				<a href=""></a>
-				OFFICIAL HP
+			<div class="modal-body-content modal-style-1">
+				<a href="http://akihironamba.jp/top.html"></a>
+				OFFICIAL
 			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 1
+			<div class="modal-body-content modal-style-2">
+				<a href="http://www.namba69.com/"></a>
+				NAMBA69
 			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 2
+			<div class="modal-body-content modal-style-2">
+				<a href="https://www.instagram.com/akihironamba/"></a>
+				INSTAGRAM
 			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 3
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				SNS 1
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				SNS 2
+			<div class="modal-body-content modal-style-1">
 			</div>
 		</div>
 	</div>
@@ -57,36 +46,25 @@
 		</div>
 	</div>
 	<div class="p2_main">
-		<a class="twitter-timeline"
+		<a class="twitter-timeline" data-theme="dark"
 		   href="https://twitter.com/AkiratsuneokA"
-		   data-widget-id="622727762982244352"
-		   data-chrome="noheader nofooter transparent">@AkiratsuneokAさんのツイート</a>
+		   data-chrome="noheader nofooter transparent" height="100%">Tweets by AkiratsuneokA</a>
 	</div>
 	<div id="modal-tsune-content" class="modal-content">
 		<div class="modal-body">
-			<div class="modal-body-content">
-				<a href=""></a>
-				OFFICIAL HP
+			<div class="modal-body-content modal-style-1">
+				<a href="http://www.akiratsuneoka.com/index.html"></a>
+				OFFICIAL
 			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 1
+			<div class="modal-body-content modal-style-2">
+				<a href="http://www.cbsmgrfc.net/"></a>
+				CBSMGRFC
 			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 2
+			<div class="modal-body-content modal-style-2">
+				<a href="http://www.chatmonchy.com/"></a>
+				CHATMONCHY
 			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 3
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				SNS 1
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				SNS 2
+			<div class="modal-body-content modal-style-1">
 			</div>
 		</div>
 	</div>
@@ -101,36 +79,25 @@
 		</div>
 	</div>
 	<div class="p2_main">
-		<a class="twitter-timeline"
+		<a class="twitter-timeline" data-theme="dark"
 		   href="https://twitter.com/KenYokoyama"
-		   data-widget-id="622718021698621440"
-		   data-chrome="noheader nofooter transparent">@KenYokoyamaさんのツイート</a>
+		   data-chrome="noheader nofooter transparent" height="100%">Tweets by KenYokoyama</a>
 	</div>
 	<div id="modal-ken-content" class="modal-content">
 		<div class="modal-body">
-			<div class="modal-body-content">
-				<a href=""></a>
-				OFFICIAL HP
+			<div class="modal-body-content modal-style-1">
+				<a href="http://kenyokoyama.com/"></a>
+				OFFICIAL
 			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 1
+			<div class="modal-body-content modal-style-2">
+				<a href="https://www.facebook.com/takaidobbqchickens?fref=ts"></a>
+				BBQ Chickens
 			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 2
+			<div class="modal-body-content modal-style-2">
+				<a href="http://www.pizzaofdeath.com/column/ken/"></a>
+				コラム
 			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				BAND HP 3
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				SNS 1
-			</div>
-			<div class="modal-body-content">
-				<a href=""></a>
-				SNS 2
+			<div class="modal-body-content modal-style-1">
 			</div>
 		</div>
 	</div>

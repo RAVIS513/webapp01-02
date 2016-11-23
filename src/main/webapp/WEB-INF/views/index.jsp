@@ -34,12 +34,11 @@
 				<c:import url="/WEB-INF/views/archives/4.jsp"></c:import>
 			</div>
 		</div>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 		<script type="text/javascript">
 			// 処理呼び出し
 			var sectionNumber = 4;
-// 			var twitterNumber = 5;
-			var twitterNumber = 1;
+ 			var twitterNumber = 5;
 			var histScript = new Hist("#container",sectionNumber,twitterNumber);
 
 			// DOM準備後処理
