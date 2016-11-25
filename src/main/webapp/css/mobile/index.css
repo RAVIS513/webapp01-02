@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+/* ***************************************
+ * Common Style
+ *************************************** */
+html {
+	font-size: 1.8em;
+}
+
+body {
+	background-color: #000;
+	color: #FFFFDD;
+}
+
+/* ***************************************
+ * Index Style
+ *************************************** */
+#sp_index_container {
+	width: 100%;
+}
+
+#sp_index_logo {
+	width: 100%;
+	height: 20%
+}
+
+#sp_index_header {
+	width: 100%;
+	height: 5%;
+}
+
+#sp_index_footer {
+	width: 100%;
+	height: 5%;
+	overflow: hidden;
+	position: relative;
+}
+
+#sp_index_main {
+	width: 100%;
+	height: 70%;
+}
+
+#sp_index_logo img {
+	width: 100%;
+}
+
+#sp_index_header p,
+#sp_index_footer p,
+.sp_index_tile p {
+	text-align: center;
+}
+
+.sp_index_tile {
+	float: left;
+	width: 33.33%;
+	overflow: hidden;
+	position: relative;
+}
+
+#sp_index_footer a:hover,
+.sp_index_tile a:hover {
+	background-color: rgba(255,255,255,0.1);
+}
+
+#sp_index_footer a,
+.sp_index_tile a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.tile_style_1 {
+	background-color: #ff3366;
+}
+
+.tile_style_2 {
+	background-color: #191970;
+}
+
+.tile_style_3 {
+	background-color: #ffd12a;
+}
+
+.tile_style_4 {
+	background-color: #575322;
+}
+
+.tile_style_5 {
+	background-color: #000033;
+}
+
+.tile_style_6 {
+	background-color: #82663A;
+}
