@@ -40,5 +40,6 @@
 				<c:import url="/WEB-INF/views/mobile/archives/pizza.jsp"></c:import>
 			</c:if>
 		</div>
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</c:param>
 </c:import>

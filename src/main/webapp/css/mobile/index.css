@@ -81,17 +81,19 @@ body {
 }
 
 .tile_style_3 {
-	background-color: #ffd12a;
+	background-color: #f1e00e;
+	color: #222222;
 }
 
 .tile_style_4 {
-	background-color: #575322;
+	background-color: #413D3D;
 }
 
 .tile_style_5 {
-	background-color: #000033;
+	background-color: #95e916;
+	color: #222222;
 }
 
 .tile_style_6 {
-	background-color: #82663A;
+	background-color: #040004;
 }

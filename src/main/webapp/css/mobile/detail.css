@@ -23,7 +23,17 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 3em;
+	background-color: rgba(0,0,0,0.9);
+}
+
+#sp_detail_header p {
+	font-size: 3em;
+	text-align: center;
+}
+
+#sp_detail_main {
+	margin-top: 4.5em;
+	margin-bottom:4.5em;
 }
 
 #sp_detail_footer {
@@ -31,5 +41,51 @@ body {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 2.5em;
+	height: 4em;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.sp_detail_footer_lbox {
+	float: left;
+	height: 4em;
+	width: 4em;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+}
+
+.sp_detail_footer_rbox {
+	float: right;
+	height: 4em;
+	width: 4em;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+}
+
+.sp_detail_footer_lbox a,
+.sp_detail_footer_rbox a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.sp_detail_footer_lbox a:hover,
+.sp_detail_footer_rbox a:hover {
+	background-color: rgba(255,255,255,0.1);
+}
+
+.sp_detail_footer_style_1 {
+	background-color: rgba(65,61,61,0.9);
+}
+
+.line-height-1 {
+	line-height: 4em;
+}
+
+.line-height-2 {
+	line-height: 2em;
 }
