@@ -57,10 +57,11 @@ public class Interceptor implements HandlerInterceptor{
 
 		// 接続先情報出力
 		if (request.getRequestURI().equals(contextPath)
-				|| request.getRequestURI().equals(contextPath + "/")
-				|| request.getRequestURI().equals(contextPath + "/sp")
+				|| request.getRequestURI().equals(contextPath + "/")) {
+			outRequestInfo(false, request);
+		} else if (request.getRequestURI().equals(contextPath + "/sp")
 				|| request.getRequestURI().equals(contextPath + "/sp/")) {
-			outRequestInfo(request);
+			outRequestInfo(true,request);
 		}
 
 		return result;
@@ -94,7 +95,7 @@ public class Interceptor implements HandlerInterceptor{
 	 * 接続先情報ログ出力
 	 * @param request
 	 */
-	private void outRequestInfo(HttpServletRequest request) {
+	private void outRequestInfo(Boolean mobile, HttpServletRequest request) {
 		// UserAgent取得
 		String ua = request.getHeader("User-Agent");
 		// 接続先IPアドレス取得
@@ -102,7 +103,11 @@ public class Interceptor implements HandlerInterceptor{
 		// 接続先ブラウザ取得
 		String bs = getBrowser(ua);
 		// ログ出力
-		logger.info("[AccessLog][ip:" + ip + "][browser:" + bs + "]");
+		if (mobile) {
+			logger.info("[AccessLog][ip:" + ip + "][browser:" + bs + "] @ Mobile");
+		} else {
+			logger.info("[AccessLog][ip:" + ip + "][browser:" + bs + "]");
+		}
 	}
 
 	/**
@@ -149,7 +154,7 @@ public class Interceptor implements HandlerInterceptor{
 	 * @return
 	 */
 	private boolean isIE(String ua) {
-		Pattern pt1 = Pattern.compile(".*((MSIE)+[0-9]\\.[0-9]).*");
+		Pattern pt1 = Pattern.compile(".*(MSIE).*");
 		Matcher mc1 = pt1.matcher(ua);
 
 		Pattern pt2 = Pattern.compile(".*(Windows NT).*");
@@ -168,7 +173,7 @@ public class Interceptor implements HandlerInterceptor{
 	 * @return
 	 */
 	private boolean isFirefox(String ua) {
-		Pattern pt = Pattern.compile(".*((Firefox/)+[0-9]\\.[0-9]\\.?[0-9]?).*");
+		Pattern pt = Pattern.compile(".*(Firefox).*");
 		Matcher mc = pt.matcher(ua);
 		return mc.matches();
 	}
@@ -179,7 +184,7 @@ public class Interceptor implements HandlerInterceptor{
 	 * @return
 	 */
 	private boolean isChrome(String ua) {
-		Pattern pt = Pattern.compile(".*((Chrome)+/?[0-9]\\.?[0-9]?).*");
+		Pattern pt = Pattern.compile(".*(Chrome).*");
 		Matcher mc = pt.matcher(ua);
 		return mc.matches();
 	}
@@ -190,7 +195,7 @@ public class Interceptor implements HandlerInterceptor{
 	 * @return
 	 */
 	private boolean isSafari(String ua) {
-		Pattern pt = Pattern.compile(".*((Version/)+[0-9]\\.?[0-9]?\\.?[0-9]? Safari).*");
+		Pattern pt = Pattern.compile(".*(Safari).*");
 		Matcher mc = pt.matcher(ua);
 		return mc.matches();
 	}
@@ -201,7 +206,7 @@ public class Interceptor implements HandlerInterceptor{
 	 * @return
 	 */
 	private boolean isOpera(String ua) {
-		Pattern pt = Pattern.compile(".*((Opera)+/? ?[0-9]\\.[0-9][0-9]?).*");
+		Pattern pt = Pattern.compile(".*(Opera).*");
 		Matcher mc = pt.matcher(ua);
 		return mc.matches();
 	}
