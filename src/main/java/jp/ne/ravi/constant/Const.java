@@ -5,4 +5,11 @@ public class Const {
 	public static final String DEBUG_ON = "true";
 	public static final String DEBUG_OFF = "false";
 
+	public static final String BROWSER_EDGE = "Edge";
+	public static final String BROWSER_IE = "IE";
+	public static final String BROWSER_FIREFOX = "Firefox";
+	public static final String BROWSER_CHROME = "Chrome";
+	public static final String BROWSER_SAFARI = "Safari";
+	public static final String BROWSER_OPERA = "Opera";
+	public static final String BROWSER_UNKNOWN = "Unknown";
 }
