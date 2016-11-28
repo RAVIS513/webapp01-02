@@ -23,7 +23,9 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
+	height: 4.5em;
 	background-color: rgba(0,0,0,0.9);
+	z-index:1;
 }
 
 #sp_detail_header p {
@@ -43,6 +45,7 @@ body {
 	width: 100%;
 	height: 4em;
 	background-color: rgba(0,0,0,0.9);
+	z-index:1;
 }
 
 .sp_detail_footer_lbox {
@@ -88,4 +91,40 @@ body {
 
 .line-height-2 {
 	line-height: 2em;
+}
+
+/* ***************************************
+ * News Style
+ *************************************** */
+.p1_newsBox {
+	border-bottom: 1px solid #F5F8FA;
+	width: 100%;
+	height: 4.5em;
+	overflow: hidden;
+	position: relative;
+}
+
+.p1_newsBox a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.p1_newsBox .p1_newsTitle table {
+	width: 100%;
+}
+
+.p1_newsBox .p1_newsTitle_L {
+	width: 85%;
+}
+
+.p1_newsBox .p1_newsTitle_R {
+	width: 15%;
+}
+
+.p1_newsBox .p1_newsTitle_R img {
+	height: 3em;
 }

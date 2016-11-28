@@ -39,7 +39,18 @@
 			<c:if test="${kind == 'pizza'}">
 				<c:import url="/WEB-INF/views/mobile/archives/pizza.jsp"></c:import>
 			</c:if>
+			<c:if test="${kind == 'about'}">
+				<c:import url="/WEB-INF/views/mobile/archives/about.jsp"></c:import>
+			</c:if>
 		</div>
 		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<script type="text/javascript">
+			var histSpScript = new HistSpDetail();
+
+			// LOAD後処理
+			$(window).load(function() {
+				histSpScript.main();
+			});
+		</script>
 	</c:param>
 </c:import>

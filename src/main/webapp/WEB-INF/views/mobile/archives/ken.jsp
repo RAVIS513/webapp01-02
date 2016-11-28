@@ -2,8 +2,8 @@
     pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<div id="sp_detail_header" class="text-v-aling">
-	<p>横山健</p>
+<div id="sp_detail_header">
+	<p class="v-adjust-parent">横山健</p>
 </div>
 <div id="sp_detail_main">
 		<a class="twitter-timeline" data-theme="dark"

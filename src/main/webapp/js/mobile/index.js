@@ -2,7 +2,6 @@
  * EndlessTrip for Mobile
  */
 var HistSp = function() {
-
 	// 定数定義
 	this.container = '#sp_index_container';
 	this.logo = '#sp_index_logo';
@@ -11,7 +10,6 @@ var HistSp = function() {
 	this.footer = '#sp_index_footer';
 	this.contents = '#sp_index_main';
 	this.tile = '.sp_index_tile';
-
 }
 
 HistSp.prototype = {

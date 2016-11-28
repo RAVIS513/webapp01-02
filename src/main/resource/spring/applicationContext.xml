@@ -33,6 +33,17 @@
 <!-- 		<property name="suffix" value=".jsp" /> -->
 	</bean>
 
+	<!-- For Interceptor -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<mvc:exclude-mapping path="/css/**" />
+			<mvc:exclude-mapping path="/js/**" />
+			<mvc:exclude-mapping path="/img/**" />
+			<bean class="jp.ne.ravi.interceptor.Interceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+
 	<!-- For Handler -->
 	<bean class="jp.ne.ravi.exception.GlobalExceptionResolver" />
 
