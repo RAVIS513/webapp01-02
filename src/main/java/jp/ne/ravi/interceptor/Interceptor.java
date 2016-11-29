@@ -36,7 +36,6 @@ public class Interceptor implements HandlerInterceptor{
 	 */
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-		Boolean result = true;
 		String contextPath = request.getContextPath();
 
 		// PC・モバイル判定
@@ -44,14 +43,14 @@ public class Interceptor implements HandlerInterceptor{
 		if (!findMobile(request)) {
 			if (request.getRequestURI().startsWith(contextPath + "/sp")) {
 				response.sendRedirect(contextPath);
-				result = false;
+				return false;
 			}
 		}
 		// PC to Mobile
 		if (findMobile(request)) {
 			if (!request.getRequestURI().startsWith(contextPath + "/sp")) {
 				response.sendRedirect(contextPath + "/sp/");
-				result = false;
+				return false;
 			}
 		}
 
@@ -64,7 +63,7 @@ public class Interceptor implements HandlerInterceptor{
 			outRequestInfo(true,request);
 		}
 
-		return result;
+		return true;
 	}
 
 	/**
