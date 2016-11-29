@@ -13,7 +13,7 @@
 <meta name="author" content="TeamRavi">
 <meta name="copyright" content="Copyright &copy; 2016 TeamRavi. All Rights Reserved.">
 <%-- その他METAタグ --%>
-<meta name="google-site-verification" content="PAJ8rOoUJouIalNt8SN1pSOiLmRlSeoMnRXXjRPG4wY"/>
+<meta name="google-site-verification" content="PAJ8rOoUJouIalNt8SN1pSOiLmRlSeoMnRXXjRPG4wY" />
 <c:if test="${not empty param.addHeadMeta}">
 	${param.addHeadMeta}
 </c:if>
